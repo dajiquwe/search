@@ -9,7 +9,7 @@ const debounce = (fn) => {
         clearTimeout(timerId);
         timerId = setTimeout(() => {
             fn.apply(this, arguments);
-        }, 250);
+        }, 450);
     };
 };
 
@@ -30,7 +30,6 @@ input.addEventListener('keyup', debounce(async function(e) {
 function createFields(repData) {
     console.log(repData);
     let items = repData.items;
-    console.log(items);
     let qArr = Array.prototype.slice.call(q); // NodeList in Array
     if (input.value == '' || input.value == ' ') {
         for (let i = 0; i < 5; i++) {
