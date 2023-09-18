@@ -1,0 +1,44 @@
+body {
+    background: #fcfdff;
+}
+
+.selected {
+    visibility: visible;
+}
+
+input {
+    padding: 10px;
+}
+
+.close {
+    width: auto;
+    height: auto;
+    padding: 1px 3px;
+}
+
+#inp {
+    width: 250px;
+}
+
+#u {
+    padding-left: 0px;
+    margin-top: 0px;
+    width: 250px;
+    background: #f0f2f5;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+#u li {
+    height: 25px;
+    border: 1px solid black;
+    padding-left: 10px;
+}
+
+.selected {
+    margin-bottom: 15px;
+    border: 1px solid black;
+    width: 250px;
+    background: palevioletred;
+    font-size: 18px;
+}
